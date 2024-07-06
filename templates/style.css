@@ -1,0 +1,25 @@
+.hero{
+  background-image: url("/faraday/billboard.jpg");
+  background-repeat: no-repeat;
+  /* height: 1000px; */
+  background-size: cover;
+  height: 100vh; /* 100% of the viewport height */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  padding: 10x;
+  text-decoration: none;
+  cursor: pointer;
+  /* position: fixed; */
+}
+.nav ul{
+  padding: 10px;
+}
+
+.log{
+  width: 40px;
+  justify-content: flex-start;
+}
