@@ -1,11 +1,21 @@
-.hero{
-  background-image: url("/faraday/billboard.jpg");
+.hero {
+  background-image: url("/faraday/location.jpg");
   background-repeat: no-repeat;
-  /* height: 1000px; */
   background-size: cover;
-  height: 100vh; /* 100% of the viewport height */
+  background-position: center; /* Center the background image */
+  height: auto;
   width: 100%; /* Ensure it takes the full width */
+  display: flex;
+  justify-content: center; /* Optional: Center content horizontally */
+  align-items: center; /* Optional: Center content vertically */
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Adjust height for smaller screens */
+  }
+}
+
 
 .nav{
   display: flex;
