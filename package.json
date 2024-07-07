@@ -5,17 +5,20 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
-
+    "dev": "npx tailwindcss -i .templates/src/input.css -o .templates/src/output.css --watch",
+    "build": "npx tailwindcss -i ./templates/src/input.css -o .templates/src/output.css --minify",
+    "build:css": "npx tailwindcss build src/input.css -o dist/output.css"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "gatsby-plugin-postcss": "^6.13.1"
   }
 }
