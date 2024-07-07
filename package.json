@@ -5,9 +5,9 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss dev -i ./templates/src/input.css -o ./templates/src/output.css",
-    "build": "npx tailwindcss build ./templates/src/input.css -o ./templates/src/output.css",
-    "build:css": "npx tailwindcss build ./templates/src/input.css -o ./templates/src/output.css"
+    "dev": "npx tailwindcss -i ./templates/src/input.css -o ./templates/src/output.css --watch",
+    "build": "npx tailwindcss -i ./templates/src/input.css -o ./templates/src/output.css",
+    "build:css": "npx tailwindcss -i ./templates/src/input.css -o ./templates/src/output.css"
   },
   "author": "",
   "license": "ISC",
