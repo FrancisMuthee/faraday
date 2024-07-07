@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  purge: ['./templates/**/*.html', './templates/**/*.js'],
-   theme: {
-    extend: {},
-  },
-  plugins: [require('@tailwindcss/aspect-ratio'),],
-}
-
+export const content = ['./templates/**/*.html', './templates/**/*.js'];
+export const theme = {
+  extend: {},
+};
+export const plugins = [require('@tailwindcss/aspect-ratio')];
