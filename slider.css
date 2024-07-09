@@ -1,0 +1,183 @@
+/* Slider Section */
+.main-slider {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .mobile-height {
+    height: 100vh;
+  }
+  
+  .swiper-full-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .cover-background {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  
+  .bg-black {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .opacity-medium {
+    opacity: 0.5;
+  }
+  
+  .opacity-extra-medium {
+    opacity: 0.7;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .full-screen {
+    height: 100%;
+  }
+  
+  .slider-typography {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .xs-text-center {
+    text-align: center;
+  }
+  
+  .slider-text-middle-main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .slider-text-middle {
+    text-align: left;
+    color: white;
+  }
+  
+  .alt-font {
+    font-family: 'Alternate Gothic No1 D', sans-serif;
+  }
+  
+  .font-weight-400 {
+    font-weight: 400;
+  }
+  
+  .font-weight-600 {
+    font-weight: 600;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-title {
+    font-size: 1.5rem;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  .letter-spacing-2 {
+    letter-spacing: 2px;
+  }
+  
+  .margin-one-bottom {
+    margin-bottom: 1rem;
+  }
+  
+  .xs-margin-five-bottom {
+    margin-bottom: 5rem;
+  }
+  
+  .width-75 {
+    width: 75%;
+  }
+  
+  .xs-width-100 {
+    width: 100%;
+  }
+  
+  .btn-dual a {
+    margin: 0 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-medium {
+    font-size: 1rem;
+  }
+  
+  .btn-rounded {
+    border-radius: 25px;
+  }
+  
+  .btn-white {
+    background-color: white;
+    color: black;
+  }
+  
+  .btn-transparent-white {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  
+  .no-margin-lr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* Swiper Navigation */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: white;
+  }
+  
