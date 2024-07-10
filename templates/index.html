@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="/slider.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <!-- SEO Meta Tags -->
 <meta name="description" content="At Faraday Technologies ,Electrical Systems, Security Systems and Solar Systems company are well fixed.">
 <meta name="keywords" content="Faraday Technologies, wallpapers & Interiors, CCTV, reliable electrical company, electrical solutions">
@@ -37,7 +39,7 @@
     <img src="faraday/logoo.jpg" >
   </div>
   <ul class="scroll">
-    <li><a href=""><strong>Home</strong></a></li>
+    <li><a href="#aboutus"><strong>Home</strong></a></li>
   </ul>
   
   <ul class="scroll">
@@ -136,51 +138,45 @@
       </div>
   </section>
   <!-- end slider section --> 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      effect: 'fade',
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-</section>
+  <h1 style="text-align: center; font-size: 24px; font-weight: bold; text-transform: uppercase; text-decoration: underline;">ABOUt US</h1>
+<section id = "aboutus">
 <div class="hero">
   <img src="faraday/logoo.jpg" alt="Faraday Technologies Logo">
   <div class="hero-content">
+    <style>
+      .info-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .info-icon {
+        margin-right: 10px;
+        font-size: 20px;
+        color: #4285f4;
+      }
+    </style>
     <h2>Faraday Technologies: We Power the World</h2>
-    <p>
-      1. We are licensed, insured, bonded, and certified for all types of modern solutions.<br>
-      2. We are focused on maintaining a high level of professionalism which is very rare in the trades industry.<br>
-      3. We pride ourselves on building long-term relationships by providing a high level of customer service.<br>
-      4. We are continually striving to improve our processes and systems to provide our clients with the best possible experience.<br>
+      <p>We are an engineering company located at Ruiru, Mathigu Road, Doctor's Plaza, Groundfloor Rm </p>
+      <div class="info-container">
+        <i class="info-icon fas fa-map-marker-alt"></i>Ruiru, Mathigu Road, Doctor's Plaza, Groundfloor Rm 
+      </div>
+      <p>
+        <i class="fa-solid fa-plug-circle-check" style="margin-right: 8px;"></i> Licensed, insured, bonded, and certified for modern solutions.<br>
+        <i class="fa-solid fa-screwdriver-wrench" style="margin-right: 8px;"></i> High level of professionalism from our experts.<br>
+        <i class="fa-regular fa-handshake" style="margin-right: 8px;"></i> High level customer service.<br>
+        <i class="fa-solid fa-microchip" style="margin-right: 8px;"></i>Upgraded technology for modern solutions.<br>
     </p>
-    <a href="services.html" class="act-but">Read More</a>
+    <a href="#aboutus" class="act-but">Exlore More</a>
   </div>
 </div>
-
-
-  <div class="alert" style="display:none;">Form submitted successfully!</div>
-
-  <h1 style="text-align: center; font-size: 24px; font-weight: bold; text-transform: uppercase; text-decoration: underline; color: green;">Services</h1>
+</section>
+ <h1 style="text-align: center; font-size: 24px; font-weight: bold; text-transform: uppercase; text-decoration: underline; color: green;">Services</h1>
 
 <section id="services">
   <div class="bg-gray-100">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-        <h2 class="text-2xl font-bold text-gray-900">Include:</h2>
+        <h2 class="text-2xl font-bold text-gray-900">Home of Modern Solutions</h2>
   
         <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
           <div class="group relative">
@@ -193,7 +189,21 @@
                 <strong>Wallpapers and Interiors</strong>
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Types: Vinyl, Murals, Vintage, Wood-look, Brick-look, patterned, peel&stick etc</p>
+            <style>
+              .view-more {
+                  color: #1E90FF; /* DodgerBlue */
+                  text-decoration: none; /* Removes the underline */
+              }
+      
+              .view-more:hover {
+                  text-decoration: underline; /* Adds underline on hover */
+              }
+          </style>
+            <p class="text-base font-semibold text-gray-900">
+              Types: Vinyl, Murals, Vintage, Wood-look, Brick-look, patterned, peel&stick.
+              <a href="https://wallpaperkenya.co.ke/product-category/contact-paper/" class="view-more">View more</a>
+            </p>
+            
           </div>
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
@@ -229,7 +239,8 @@
                 <strong>Renewable Energy</strong>
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Solar system installations aand Water systems</p>
+            <p class="text-base font-semibold text-gray-900">Solar system installations aand Water systems Electric connections.
+            </p>
           </div>
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
@@ -241,7 +252,7 @@
                 <strong>Home security systems</strong>
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Electric fences, Fire alarms, Automatic gates, Fire extinguishers, Razor wires etc</p>
+            <p class="text-base font-semibold text-gray-900">High quality Electric fences, Automatic gates, Fire alarms, Fire extinguishers, Razor wires </p>
           </div>
           <div class="group relative">
             <div class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
@@ -253,7 +264,7 @@
                 <strong>Interior decor</strong>
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Grass carpets, Floor mats, Gypsum, Shelf stacking, stickers, fireplaces, Tv mounting</p>
+            <p class="text-base font-semibold text-gray-900">Grass carpets, Floor mats, Gypsum, Shelf stacking, stickers, fireplaces, Tv mounting services.</p>
           </div>
         </div>
       </div>
@@ -262,7 +273,7 @@
 </section>
 
 <h1 style="text-align: center; font-size: 24px; font-weight: bold; text-transform: uppercase; text-decoration: underline; color: red">Products</h1>
-<h5 style="text-align: center; font-size: 20px; color: black">If you're looking to shop quality products, from Nunix and HikVision. I recommend Faraday Technologies for delivery and installations</h5>
+<h5 style="text-align: center; font-size: 20px; color: black">Looking to shop quality products? <br>Beautiful Homes are made not Bought. ~Eng. Faraday.</h5>
 
 <section id="products">
 <div class="bg-white">
@@ -281,7 +292,7 @@
         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
           <img src="faraday/CCTV-Camera-Install.jpg" alt="cctv" class="h-full w-full object-cover object-center group-hover:opacity-75">
         </div>
-        <h3 class="mt-4 text-sm text-gray-700">CCTV's</h3>
+        <h3 class="mt-4 text-sm text-gray-700">HIKVISION CCTV's</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">Price/Type</p>
       </a>
       <a href="recent.html" class="group">
@@ -332,7 +343,22 @@
         </div>
         <h3 class="mt-4 text-sm text-gray-700">Water pumps</h3>
         <p class="mt-1 text-lg font-medium text-gray-900">KSh. 700</p>
+      </a> 
+      <a href="recent.html" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <img src="faraday/blender.jpg" alt="water pump" class="h-full w-full object-cover object-center group-hover:opacity-75">
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Blenders</h3>
+        <p class="mt-1 text-lg font-medium text-gray-900">KSh. 700</p>
+        <a href="recent.html" class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="faraday/wire2.5.jpg" alt="water pump" class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-sm text-gray-700">Wires</h3>
+          <p class="mt-1 text-lg font-medium text-gray-900">Price/roll</p>
+        </a>
       </a>
+      
 
       <!-- More products... -->
     </div>
@@ -347,7 +373,7 @@
   <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
     <div class="max-w-2xl">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our Team</h2>
-      <p class="mt-6 text-lg leading-8 text-gray-600">Welcome to the powerhouse of engineering excellence! Established in 2019 by the visionary Eng. Amos Faraday, Faraday Technologies stands tall as Kenya's premier engineering solution provider.</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Meet the experts, led by Eng. Amos. Trained and certified professionals by HikVision. We deliver security and electrical solutions to the standards.</p>
     </div>
     <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
       <li>
@@ -522,8 +548,8 @@
       <div class="footer-container">
         <h3>For more details:</h3>
         <ul>
-          <li><a href="#">Amosfaraday2000@gmail.com</a></li>
-          <li><a href="#">0768-765-330</a></li>
+          <li><a class="email" href="">Amosfaraday2000@gmail.com</a></li>
+          <li><a class="number" href="tel: +25468765330">0768-765-330</a></li>
         </ul>
       </div>
     </div>
@@ -532,7 +558,26 @@
 
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-65f153d9-e22c-4e46-95ec-7ed89df5f9f0" data-elfsight-app-lazy></div>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
 
 </body>
 </html>
